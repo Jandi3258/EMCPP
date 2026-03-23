@@ -1,0 +1,6 @@
+/Users/mainuser/Desktop/Studia/EMCPP/Cwiczenia/Cwiczenia2/lab2/cmake-build-debug/CMakeFiles/DynamicContainer.dir
+/Users/mainuser/Desktop/Studia/EMCPP/Cwiczenia/Cwiczenia2/lab2/cmake-build-debug/CMakeFiles/StaticContainer.dir
+/Users/mainuser/Desktop/Studia/EMCPP/Cwiczenia/Cwiczenia2/lab2/cmake-build-debug/CMakeFiles/StaticContainer2.dir
+/Users/mainuser/Desktop/Studia/EMCPP/Cwiczenia/Cwiczenia2/lab2/cmake-build-debug/CMakeFiles/String.dir
+/Users/mainuser/Desktop/Studia/EMCPP/Cwiczenia/Cwiczenia2/lab2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/mainuser/Desktop/Studia/EMCPP/Cwiczenia/Cwiczenia2/lab2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
