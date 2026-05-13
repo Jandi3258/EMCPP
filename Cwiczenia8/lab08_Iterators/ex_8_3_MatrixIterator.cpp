@@ -3,6 +3,7 @@
 #include <iomanip>
 #include <vector>
 #include "Matrix.h"
+#include <numeric>
 using namespace std;
 
 int main(){

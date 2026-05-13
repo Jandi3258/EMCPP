@@ -22,8 +22,8 @@ template <typename L, typename R>
 struct VecAdd {
     typename Traits<L>::Type lhs;
     typename Traits<R>::Type rhs;
-    VecAdd(const L& l, const R& r) : lhs(l), rhs(r) {}
-    int operator[](int i) const { return lhs[i] + rhs[i]; }
+    VecAdd(const L& l, const R& r) : lhs(l), rhs(r) {} //konstruktor
+    int operator[](int i) const { return lhs[i] + rhs[i]; } //definiujemy co to znaczy - leniwa ewaluacja
 };
 
 template <typename L, typename R>

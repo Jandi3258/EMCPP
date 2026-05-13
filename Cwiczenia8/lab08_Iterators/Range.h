@@ -11,6 +11,7 @@ private:
     T stop_val;
     T step_val;
 
+    //jak stworzyć obiekt, który zachowuje się jak kolekcja, ale nie zajmuje pamięci na przechowywanie elementów. - wirtualny kontener
 public:
     explicit Range(T stop) : start_val(0), stop_val(stop), step_val(1) {}
     Range(T start, T stop, T step = 1) : start_val(start), stop_val(stop), step_val(step) {}
@@ -37,12 +38,12 @@ public:
             return *this;
         }
 
-        Iterator operator++(int) {
+        Iterator operator++(int) { // do dodawania nastepnego kroku
             Iterator tmp = *this;
             current_val += step_val;
             return tmp;
         }
-        bool operator!=(const Iterator& other) const {
+        bool operator!=(const Iterator& other) const {//do sprawdzania limitu
             if (step_val > 0) {
                 return (current_val < stop_limit) != (other.current_val < other.stop_limit);
             }
@@ -56,8 +57,8 @@ public:
         }
     };
 
-    Iterator begin() const { return Iterator(start_val, step_val, stop_val); }
-    Iterator end() const { return Iterator(stop_val, step_val, stop_val); }
+    Iterator begin() const { return Iterator(start_val, step_val, stop_val); }//iterator ustawiony na wartosc pocz
+    Iterator end() const { return Iterator(stop_val, step_val, stop_val); }//iterator ustawiony na wartosc kon
 };
 
 template <typename T>

@@ -29,7 +29,9 @@ int main(){
     printMatrix(m2);
 
     // Dissable implicit conversions, replace with explicit ones.
-    m2 = 4; // This line should not compile!!
+    //m2 = 4; // This line should not compile!!
+    //zamiast tego dajemy to:
+    m2 = Matrix<int, 2, 3>(4);
     printMatrix(m2);
     return 0;
 }
