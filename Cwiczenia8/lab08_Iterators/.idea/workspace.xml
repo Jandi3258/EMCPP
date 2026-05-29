@@ -6,6 +6,7 @@
   <component name="BackendCodeEditorMiscSettings">
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/OptionsDialog/SelectedPageId/@EntryValue" value="CppGeneralOptions" type="string" />
     <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
   </component>
   <component name="CMakeProjectFlavorService">
@@ -17,7 +18,18 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce8344fb-3086-4798-a468-247da888cbfe" name="Changes" comment="" />
+    <list default="true" id="ce8344fb-3086-4798-a468-247da888cbfe" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Cwiczenia6/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Cwiczenia6/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cwiczenia7/lab07_traits_polices/ex_7_4_Vector_operators.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Cwiczenia7/lab07_traits_polices/ex_7_4_Vector_operators.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Filter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Filter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/Matrix.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Range.h" beforeDir="false" afterPath="$PROJECT_DIR$/Range.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex_8_2_MatrixModifiers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ex_8_2_MatrixModifiers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex_8_3_MatrixIterator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ex_8_3_MatrixIterator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/program" beforeDir="false" afterPath="$PROJECT_DIR$/program" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +40,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Matrix.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
@@ -62,11 +77,11 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;CMakeSettings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CPPToolchains&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="C/C++ File.ex_8_3_MatrixIterator.cpp">
+  <component name="RunManager" selected="C/C++ File.ex_8_4_Filter.cpp">
     <configuration name="ex_8_1_Range.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab08_Iterators" TARGET_NAME="ex_8_1_Range.cpp" CONFIG_NAME="ex_8_1_Range.cpp">
       <option name="sourceFile" value="ex_8_1_Range.cpp" />
       <method v="2">
@@ -81,6 +96,12 @@
     </configuration>
     <configuration name="ex_8_3_MatrixIterator.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab08_Iterators" TARGET_NAME="ex_8_3_MatrixIterator.cpp" CONFIG_NAME="ex_8_3_MatrixIterator.cpp">
       <option name="sourceFile" value="ex_8_3_MatrixIterator.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex_8_4_Filter.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab08_Iterators" TARGET_NAME="ex_8_4_Filter.cpp" CONFIG_NAME="ex_8_4_Filter.cpp">
+      <option name="sourceFile" value="ex_8_4_Filter.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -101,6 +122,12 @@
       <workItem from="1777912259364" duration="329000" />
       <workItem from="1777912592706" duration="158000" />
       <workItem from="1777912771421" duration="3896000" />
+      <workItem from="1778016256168" duration="1111000" />
+      <workItem from="1778058687770" duration="6699000" />
+      <workItem from="1778563995952" duration="1169000" />
+      <workItem from="1778571374636" duration="23000" />
+      <workItem from="1778571833171" duration="1056000" />
+      <workItem from="1778572989169" duration="2389000" />
     </task>
     <servers />
   </component>

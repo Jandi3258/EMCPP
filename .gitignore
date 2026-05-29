@@ -1,0 +1,45 @@
+# =========================
+# JetBrains IDE (CLion, itp.)
+# =========================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Foldery budowania generowane domyślnie przez CLion
+cmake-build-*/
+
+# =========================
+# CMake (pliki tymczasowe)
+# =========================
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# =========================
+# Skompilowane pliki C++ i binarki
+# =========================
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+*.exe
+*.out
+*.app
+# Lokalne pliki wykonywalne
+program
+
+# =========================
+# OS / Inne śmieci systemowe
+# =========================
+.DS_Store
+Thumbs.db
