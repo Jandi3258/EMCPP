@@ -1,6 +1,7 @@
 # =========================
 # JetBrains IDE (CLion, itp.)
 # =========================
+build/
 .idea/
 *.iml
 *.iws
