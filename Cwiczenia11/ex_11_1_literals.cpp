@@ -1,14 +1,31 @@
+//Pawel Jandula
 #include <iostream>
 using namespace std;
 
 
-/**
-    Computes velocity in meters per seconds.
-    @param distance  distance in meters
-    @param time      time in seconds
-    @return velocity in meters per seconds.
-*/
+
+constexpr double operator""_m(long double val) { return val; }
+constexpr double operator""_m(unsigned long long val) { return static_cast<double>(val); }
+
+constexpr double operator""_km(long double val) { return val * 1000.0; }
+constexpr double operator""_km(unsigned long long val) { return val * 1000.0; }
+
+constexpr double operator""_cm(long double val) { return val / 100.0; }
+constexpr double operator""_cm(unsigned long long val) { return val / 100.0; }
+
+
+constexpr double operator""_s(long double val) { return val; }
+constexpr double operator""_s(unsigned long long val) { return static_cast<double>(val); }
+
+constexpr double operator""_ms(long double val) { return val / 1000.0; }
+constexpr double operator""_ms(unsigned long long val) { return val / 1000.0; }
+
+constexpr double operator""_h(long double val) { return val * 3600.0; }
+constexpr double operator""_h(unsigned long long val) { return val * 3600.0; }
+
+
 double computeVelocity(double distance, double time){
+
     return distance/time;
 }
 
